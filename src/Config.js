@@ -1,5 +1,5 @@
 export const config = {
-  appId: "c11c5223-1fc0-4e45-9969-08904250f96c",
-  redirectUri: "http://localhost:3000/",
+  appId: process.env.REACT_APP_APP_ID,
+  redirectUri: process.env.REACT_APP_REDIRECT_URI,
   scopes: ["user.read"],
 };
